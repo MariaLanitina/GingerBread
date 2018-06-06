@@ -11,8 +11,8 @@ if t1 >= 1 && t2 <= 100000
       residue = summ - (whole * 3600)
       min = (residue / 60).floor
       sec = residue - min * 60 
-    puts "#{whole} hours #{min} minutes #{sec}  seconds"
+      puts "#{whole} hours #{min} minutes #{sec}  seconds"
     end
-  else
-    puts "Error"
+else
+  puts "Error"
 end
