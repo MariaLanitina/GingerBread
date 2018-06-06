@@ -12,7 +12,7 @@ if t1 >= 1 && t2 <= 100000
       min = (residue / 60).floor
       sec = residue - min * 60 
     puts "#{whole} hours #{min} minutes #{sec}  seconds"
-  end
+    end
   else
     puts "Error"
 end
