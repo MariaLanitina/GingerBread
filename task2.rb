@@ -10,4 +10,4 @@ num_of_days = days_in_month.take(month - 1) if month > 1
 days = 0
 num_of_days.each { |v| days += v }
 days_from_start = days + day
-puts 356 - days_from_start
+puts 365 - days_from_start
