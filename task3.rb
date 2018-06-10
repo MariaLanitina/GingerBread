@@ -1,5 +1,5 @@
-t1 = ARGV[0]
-t2 = ARGV[1]
+t1 = ARGV[0].to_i
+t2 = ARGV[1].to_i
 if t1 >= 1 && t2 <= 100000
   summ = t1 + t2
   whole = (summ / 60).floor
